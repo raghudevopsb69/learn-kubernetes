@@ -50,7 +50,7 @@ spec:
   ports:
     - protocol: TCP
       targetPort: 8080
-      port: 80
+      port: 8080
   type: ClusterIP
 ---
 apiVersion: v1
@@ -81,7 +81,7 @@ spec:
   ports:
     - protocol: TCP
       targetPort: 8080
-      port: 80
+      port: 8080
   type: ClusterIP
 ---
 apiVersion: v1
@@ -112,7 +112,7 @@ spec:
   ports:
     - protocol: TCP
       targetPort: 8080
-      port: 80
+      port: 8080
   type: ClusterIP
 ---
 apiVersion: v1
@@ -151,7 +151,7 @@ spec:
   ports:
     - protocol: TCP
       targetPort: 8080
-      port: 80
+      port: 8080
   type: ClusterIP
 ---
 apiVersion: v1
@@ -181,5 +181,5 @@ spec:
   ports:
     - protocol: TCP
       targetPort: 8080
-      port: 80
+      port: 8080
   type: ClusterIP
